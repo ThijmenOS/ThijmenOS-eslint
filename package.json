@@ -1,22 +1,28 @@
 {
-  "name": "@javascriptos/eslint-config",
-  "version": "2.0.0",
-  "description": "the eslint configurations for the javascriptOS project",
+  "name": "@thijmenos/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config for the javascriptos project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThijmenOS/javascriptOS-eslint.git"
+  },
   "keywords": [
-    "javascriptOS"
+    "javascriptos",
+    "thijmenos"
   ],
-  "author": "Thijmen Brand",
+  "author": "thijmen brand",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThijmenOS/javascriptOS-eslint/issues"
+  },
+  "homepage": "https://github.com/ThijmenOS/javascriptOS-eslint#readme",
   "dependencies": {
     "eslint": "^8.27.0",
     "@typescript-eslint/eslint-plugin": "^5.40.1",
     "@typescript-eslint/parser": "^5.40.1"
-  },
-  "peerDependencies": {
-    "eslint": ">= 8"
   }
 }
