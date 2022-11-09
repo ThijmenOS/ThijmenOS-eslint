@@ -1,0 +1,22 @@
+{
+  "name": "@javascriptos/eslint-config",
+  "version": "2.0.0",
+  "description": "the eslint configurations for the javascriptOS project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascriptOS"
+  ],
+  "author": "Thijmen Brand",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.27.0",
+    "@typescript-eslint/eslint-plugin": "^5.40.1",
+    "@typescript-eslint/parser": "^5.40.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8"
+  }
+}
