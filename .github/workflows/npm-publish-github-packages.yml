@@ -20,7 +20,6 @@ jobs:
       - run: git config user.name "Thijmen Brand"
       - run: npm ci
       - run: npm version patch
-      - run: npm run build
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
