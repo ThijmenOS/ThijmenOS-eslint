@@ -16,7 +16,7 @@ jobs:
       - run: npm run build
 
   publish-gpr:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
