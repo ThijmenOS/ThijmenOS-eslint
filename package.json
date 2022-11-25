@@ -1,6 +1,6 @@
 {
-  "name": "@thijmenos/eslint-config",
-  "version": "1.0.1",
+  "name": "@thijmen-os/eslint-config",
+  "version": "1.0.0",
   "description": "eslint config for the javascriptos project",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ThijmenOS/javascriptOS-eslint.git"
-  },
-  "publishConfig": {
-    "@ThijmenOS:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "javascriptos",
